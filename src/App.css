@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .fade-in {
+        transition: none !important;
+        animation: none !important;
+    }
+}
+
+/* Initial state: invisible and slightly lower */
+.fade-in {
+    opacity: 0;                     /* invisible */
+    transform: translateY(12px);    /* move down 12px */
+    transition: opacity 800ms ease-out, transform 800ms ease-out;
+}
+
+/* When visible: fully shown and in normal position */
+.fade-in.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
