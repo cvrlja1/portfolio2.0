@@ -43,9 +43,6 @@ function Projects() {
                         <strong>Tech Stack:</strong> React, Express, TailwindCSS, JWT, MySQL
                     </p>
                 </div>
-
-                <img src="/projects/ecommerce_project.png" alt="Ecommerce Project"
-                     className="max-w-md rounded-md w-full h-auto"/>
             </div>
             </FadeInSection>
         </section>
