@@ -1,4 +1,5 @@
 import FadeInSection from "./FadeInSection.jsx";
+import FloatingShapes from "./FloatingShapes.jsx";
 
 
 function Projects() {
