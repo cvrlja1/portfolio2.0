@@ -17,14 +17,14 @@ export default function FloatingShapes() {
 
     if (!pageHeight || !pageWidth) return null;
 
-    const shapes = Array.from({ length: 15 }, () => {
+    const shapes = Array.from({ length: 20 }, () => {
         const size = Math.random() * 80 + 20;
         return {
             size,
             top: Math.random() * (pageHeight - size),
             left: Math.random() * (pageWidth - size),
-            color: "bg-sky-500",
-            opacity: Math.random() * 0.3 + 0.2,
+            color: "bg-sky-400",
+            opacity: Math.random() * 0.5 + 0.2,
             blur: "blur-3xl",
             speed: 1 + Math.random() * 3,
         };
