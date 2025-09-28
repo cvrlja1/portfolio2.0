@@ -1,5 +1,5 @@
 import FadeInSection from "./FadeInSection.jsx";
-import FloatingShapes from "./FloatingShapes.jsx";
+import {FaGithubSquare, FaLinkedin} from "react-icons/fa";
 
 
 function Projects() {
@@ -13,7 +13,7 @@ function Projects() {
 
             <FadeInSection>
             <div className="flex flex-row justify-evenly w-full gap-20">
-                <div className="flex flex-col">
+                <div className="flex flex-col items-start">
                     <h3 className="text-2xl font-bold text-cyan-400 mb-4">Full Stack E-Commerce Website</h3>
 
                     <p className="text-gray-300 mb-4">
@@ -43,6 +43,10 @@ function Projects() {
                     <p className="text-gray-200 font-semibold">
                         <strong>Tech Stack:</strong> React, Express, TailwindCSS, JWT, MySQL
                     </p>
+                    <a href="https://github.com/cvrlja1/fatelep" target="_blank" rel="noreferrer"
+                       className="hover:text-sky-400 hover:scale-110 transition-all duration-300 inline-flex w-auto mt-5">
+                        <FaGithubSquare size={60} color={"white"}/>
+                    </a>
                 </div>
             </div>
             </FadeInSection>

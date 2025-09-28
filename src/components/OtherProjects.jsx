@@ -1,4 +1,5 @@
 import FadeInSection from "./FadeInSection";
+import {FaGithubSquare} from "react-icons/fa";
 
 function OtherProjects() {
     return (
@@ -8,8 +9,8 @@ function OtherProjects() {
             </FadeInSection>
 
             <FadeInSection>
-            <div className="flex flex-row mt-20 justify-evenly w-full ">
-                <div className="flex flex-col">
+            <div className="flex flex-col mt-20 justify-evenly w-full gap-20">
+                <div className="flex flex-col items-start">
                     <h3 className="text-2xl font-bold text-cyan-400 mb-4">cub3D</h3>
 
                     <p className="text-gray-300 mb-4">
@@ -33,13 +34,13 @@ function OtherProjects() {
                     <p className="text-gray-200 font-semibold">
                         <strong>Tech Stack:</strong> C, MiniLibX, Raycasting, Math/Trigonometry
                     </p>
+                    <a href="https://github.com/cvrlja1/cub3d" target="_blank" rel="noreferrer"
+                       className="hover:text-sky-400 hover:scale-110 transition-all duration-300 inline-flex w-auto mt-5">
+                        <FaGithubSquare size={60} color={"white"}/>
+                    </a>
                 </div>
-            </div>
-            </FadeInSection>
 
-            <FadeInSection>
-                <div className="flex flex-row mt-20 justify-evenly w-full">
-                    <div className="flex flex-col">
+                <div className="flex flex-col items-start">
                         <h3 className="text-2xl font-bold text-cyan-400 mb-4">Minishell</h3>
 
                         <p className="text-gray-300 mb-4">
@@ -65,9 +66,13 @@ function OtherProjects() {
                         <p className="text-gray-200 font-semibold">
                             <strong>Tech Stack:</strong> C, Unix system calls, Process Management, File Descriptors
                         </p>
+                        <a href="https://github.com/cvrlja1/minishell" target="_blank" rel="noreferrer"
+                           className="hover:text-sky-400 hover:scale-110 transition-all duration-300 inline-flex w-auto mt-5">
+                            <FaGithubSquare size={60} color={"white"}/>
+                        </a>
                     </div>
-                </div>
-            </FadeInSection>
+            </div>
+                </FadeInSection>
         </section>
     )
 }

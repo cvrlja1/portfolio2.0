@@ -1,3 +1,6 @@
+import { FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 function Contact() {
     return (
         <section id="contact" className="flex flex-col items-center py-20">
@@ -16,11 +19,11 @@ function Contact() {
             <div className="flex gap-6 text-3xl text-gray-400">
                 <a href="https://github.com/cvrlja1" target="_blank" rel="noreferrer"
                    className="hover:text-sky-400 hover:scale-105 transition-all duration-300">
-                    GitHub
+                    <FaGithubSquare size={60}/>
                 </a>
-                <a href="www.linkedin.com/in/nikolacvrlja" target="_blank" rel="noreferrer"
+                <a href="https://www.linkedin.com/in/nikolacvrlja" target="_blank" rel="noreferrer"
                    className="hover:text-sky-400 hover:scale-105 transition-all duration-300">
-                    LinkedIn
+                    <FaLinkedin size={60}/>
                 </a>
             </div>
         </section>
