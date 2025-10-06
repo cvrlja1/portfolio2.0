@@ -8,7 +8,7 @@ import FloatingShapes from "./components/FloatingShapes.jsx";
 
 function App() {
     return (
-        <div className="flex flex-col min-h-screen bg-gradient-to-b from-[#0B0D31] via-[#312154] to-[#330E3B]">
+        <div className="p-10 flex flex-col min-h-screen bg-gradient-to-b from-[#0B0D31] via-[#312154] to-[#330E3B]">
             <FloatingShapes />
             <Hero />
             <Projects />
